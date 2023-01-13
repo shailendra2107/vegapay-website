@@ -1,0 +1,76 @@
+@import "variable.css";
+
+body {
+  font-family: var(--font-regular);
+}
+.bg-image {
+  background-image: url("../images/jpg/top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-gradient {
+  background: linear-gradient(
+    90.24deg,
+    #ffffff 0.23%,
+    rgba(255, 255, 255, 0.21) 106.44%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-blue-gradient {
+  background: linear-gradient(90.24deg, #443277 0.23%, #40306d 106.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gray-gradient {
+  background: linear-gradient(90.24deg, #565656 0.23%, #707070 106.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-white-gradient {
+  background: linear-gradient(90.81deg, #d1d1d1 0.78%, #b5b2be 94.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-purple-gradient {
+  background: linear-gradient(90.81deg, #313030 0.78%, #2b2b2b 94.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-dark-gradient {
+  background: linear-gradient(90.81deg, #3d3d3d 0.78%, #5a5a5a 94.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.bg-contact-linear {
+  background: linear-gradient(
+    95.63deg,
+    #090909 -15.6%,
+    #3e1f71 65.54%,
+    #242424 127.85%
+  );
+}
+.bg-inner-contact-linear {
+  background: linear-gradient(91.38deg, #ffffff 1.18%, #d8daff 100%);
+}
+.bg-modal-logo-gradient {
+  background: linear-gradient(289.88deg, #6700a7 -20.15%, #220633 123.49%),
+    linear-gradient(101.23deg, #c2bdc5 0%, #ffffff 71.15%);
+}
+.img-blend {
+  background: linear-gradient(0deg, #906cff, #906cff),
+    url("../images/png/work.png");
+  background-blend-mode: lighten, normal;
+}
+.img-contact {
+  background: url("../images/png/flow.png");
+  mix-blend-mode: darken;
+  transform: rotate(-48.76deg);
+}
